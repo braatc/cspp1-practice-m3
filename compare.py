@@ -9,6 +9,7 @@ if (VARA.isnumeric() and VARB.isnumeric()):
         print("equal")
     elif int(VARA) < int(VARB):
         print("smaller")
+        #comment
 else:
     print("string involved")
     if len(VARA) > len(VARB):
